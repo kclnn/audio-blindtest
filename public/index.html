@@ -4,12 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- <link ref="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700"> -->
+    <script src="webcomponents/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="webcomponents/my-paper-audio-player/paper-audio-player.html">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>audio-blindtest</title>
+    <title>Audio Blindtest</title>
+    <style is="custom-style">
+      paper-audio-player.blue {
+        --paper-audio-player-color: #599272;
+      }
+      </style>
   </head>
-  <body>
+  <body class="has-navbar-fixed-top">
     <noscript>
-      <strong>We're sorry but audio-blindtest doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <p><strong>We're sorry but this website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></p>
+      <p><a href="https://www.enable-javascript.com/">How to enable JavaScript</a></p>
+      <p><a href="https://nyxl.de/impressum/impressum_datenschutz.html">Contact / Imprint</a></p>
+
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->

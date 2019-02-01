@@ -1,0 +1,28 @@
+@import "./superhero/variables";
+
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+@import "./superhero/overrides";
+
+// change top navbar-burger line rotation direction
+.navbar-burger.is-active span:nth-child(1) {
+  -webkit-transform: translateY(5px) rotate(-135deg);
+          transform: translateY(5px) rotate(-135deg);
+}
+
+.has-text-highlighted, .notification strong.has-text-highlighted {
+  color: #88bfd3;
+}
+.notification a:hover {
+  text-decoration: none !important;
+}
+a.navbar-item:hover {
+  color: $success;
+}
+@import "./animations";
+@import "./lato-font";

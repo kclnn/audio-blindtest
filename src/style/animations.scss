@@ -1,0 +1,14 @@
+@import './animate';
+
+.fading {
+  transition: 0.3s opacity;
+  -webkit-transition: 0.3s opacity;
+}
+.faded-out {
+  opacity: 0;
+}
+
+.animated.super-fast {
+  -webkit-animation-duration: 300ms;
+  animation-duration: 300ms;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "audio-blindtest",
+  "description": "audio-blindtest",
+  "main": "",
+  "authors": [
+    "kclnn <nyxl@gmx.de>"
+  ],
+  "license": "MIT",
+  "homepage": "https://nyxl.de",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-audio-player": "^1.1.1"
+  }
+}
