@@ -34,6 +34,9 @@ export class AudioPlayerGroup extends Vue {
       }
     }
   }
+  protected pauseAllAudioPlayers() {
+    this.pauseAllAudioPlayersButOne(-1);
+  }
   protected getSrc(file: File) {
     return window.URL.createObjectURL(file);
   }

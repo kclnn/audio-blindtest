@@ -41,6 +41,7 @@ export default class BinomialTest extends Mixins<AudioPlayerGroup>(AudioPlayerGr
     return this.binomialStore.permutedFiles.length;
   }
   private addSample(correct: boolean) {
+    this.pauseAllAudioPlayers();
     this.correctToAdd = correct;
     this.fadedOut = true;
   }
