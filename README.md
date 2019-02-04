@@ -1,9 +1,11 @@
-# audio-blindtest
+# Audio Blindtest
 
 ## Project setup
 ```
 npm install
+bower install
 ```
+Bower is needed to install web components (paper audio player and dependencies).
 
 ### Compiles and hot-reloads for development
 ```
