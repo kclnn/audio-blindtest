@@ -13,7 +13,6 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-// @ts-ignore
 import AppNavBar from '@/components/NavBar.vue';
 
 @Component({
